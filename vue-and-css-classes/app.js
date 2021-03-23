@@ -28,4 +28,4 @@ const app = Vue.createApp({
 
 });
 
-app.mount('#styling')
+app.mount('#styling');
