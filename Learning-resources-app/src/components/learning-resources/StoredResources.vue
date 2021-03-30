@@ -1,6 +1,6 @@
 <template>
      <ul>
-        <learning-resource :title="res.title" :description="res.description" :link="res.link" v-for="res in resources" :key="res.id"></learning-resource>
+        <learning-resource :title="res.title" :description="res.description" :link="res.link" :id="res.id" v-for="res in resources" :key="res.id"></learning-resource>
     </ul>
 </template>
 
