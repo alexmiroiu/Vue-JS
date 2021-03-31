@@ -8,7 +8,7 @@
 
 <script>
 export default {
-    prop: ['modelValue'],
+    props: ['modelValue'],
     emits: ['update:modelValue'],
     // data() {
     //     return {

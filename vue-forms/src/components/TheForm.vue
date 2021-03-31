@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import RatingControl from './RatingControl.vue'
+import RatingControl from './RatingControl.vue';
 
 export default {
   components: {
@@ -72,7 +72,6 @@ export default {
       how: null,
       userNameValidity: 'pending',
       rating: null
-      
     }
   },
   methods: {
@@ -91,6 +90,7 @@ export default {
       this.how = null;
       console.log('rating:');
       console.log(this.rating);
+      this.rating = null;
     },
     validateInput() {
       if (this.userName === '') {
