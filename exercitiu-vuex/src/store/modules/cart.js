@@ -39,7 +39,7 @@ export default {
             state.qty -= prodData.qty;
             state.total -= prodData.price * prodData.qty;
           },
-        }
+        },
     actions: {
         addToCart(context, payload) {
             context.commit('addProductToCart', payload);
