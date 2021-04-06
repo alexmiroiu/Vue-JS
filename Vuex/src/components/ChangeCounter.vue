@@ -13,7 +13,7 @@ export default {
         // addOne () {
         //     this.$store.dispatch('increment');
         // }
-        ...mapActions(['increment', 'increaseByTen'])
+        ...mapActions('numbers', ['increment', 'increaseByTen'])
     },
 }
 </script>

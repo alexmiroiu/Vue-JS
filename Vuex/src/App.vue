@@ -29,7 +29,7 @@ export default {
   methods: {
     addOne() {
       this.$store.dispatch({
-        type: 'increaseByTen',
+        type: 'numbers/increaseByTen',
         value: 10
       });
     }
